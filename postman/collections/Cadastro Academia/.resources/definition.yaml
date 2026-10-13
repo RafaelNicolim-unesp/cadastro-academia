@@ -1,0 +1,10 @@
+$kind: collection
+name: Cadastro Academia API
+description: |-
+  API REST para gerenciamento de academias.
+  Base path: /academia
+  Framework: Spring Boot com banco H2 em memória.
+variables:
+  - key: baseUrl
+    value: 'http://localhost:8080'
+    description: URL base da aplicação Spring Boot
